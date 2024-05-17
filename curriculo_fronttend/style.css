@@ -1,0 +1,195 @@
+.container{
+    width: 1100px;
+    height: 1700px;
+    z-index: 1;
+    padding-left: 40%;
+    z-index: 0;
+}
+.nome{
+    text-align: center;
+    width: 380px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 10%;
+    color: rgb(169, 176, 182);
+    
+}
+.foto_perf{
+    background-image: url('/imagens/luka\ foto.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    margin: 40px;
+    z-index: 0;
+    position: absolute;
+    top: 20%;
+}
+.body{
+background-image:linear-gradient(to right, #43125f,#0c0f18);
+background-size: cover;
+background-repeat: repeat;
+width: 200px;
+height: 200px;
+z-index: 0;
+}
+.aniv{
+    position: absolute;
+    top: 10%;
+    width: 1300px;
+    text-align: center;
+    z-index: 1;
+    color: rgb(169, 176, 182);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.barra{
+    background-image: url("img/pngegg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+    margin: 150px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 0;
+    top: -10%;
+    
+}
+.gmail{
+    position: absolute;
+    top: 11%;
+    text-align: right;
+    width: 1300px;
+    z-index: 2;
+    color: rgb(169, 176, 182);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tell{
+    position: absolute;
+    top: 30%;
+    text-align: right;
+    width: 1300px;
+    z-index: 2;
+    color: rgb(169, 176, 182);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tx{
+    position: absolute;
+    top: 80%;
+    text-align: right;
+    width: 1360px;
+    z-index: 2;
+    color: rgb(169, 176, 182);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ncl{
+    color: rgb(169, 176, 182);
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 1300px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.end{
+    color: rgb(169, 176, 182);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 1300px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gostos_pag2{
+    width: 1100px;
+    height: 1700px;
+    z-index: 1;
+    padding-left: 40%;
+    z-index: 0;
+}
+.titulo{
+    width: 1400px;
+    margin-top: -70%;
+    text-align: center;
+    text-height: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+}
+.skt{
+    background-image: url("img/skateboard-1769537_640.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+.sktnome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+    position: absolute;
+    margin: 85px;
+    margin-top: -5%;
+}
+.bask{
+    background-image: url("img/silhouette-3272331_640.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 500px;
+    margin-top: -27%;
+    width: 200px;
+    height: 200px;
+
+}
+.basknome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+    margin: 450px;
+    margin-top: -42%;
+}
+.surf{
+    background-image: url("img/man-7099842_640.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 800px;
+    margin-top: -64%;
+    width: 150px;
+    height: 200px;
+}
+.surfname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+    margin: 820px;
+    margin-top: -71.2%;
+}
+.code{
+    background-image: url("img/pngwing.com.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1110px;
+    margin-top: -97%;
+    width: 180px;
+    height: 200px;
+}
+.codename{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+    margin: 1100px;
+    margin-top: -100%;
+}
+.gostos_pag2{
+    width: 1100px;
+    height: 1700px;
+    z-index: 1;
+    padding-left: 40%;
+    z-index: 0;
+}
+.titulo2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 176, 182);
+    position: absolute;
+    margin: 710px;
+    margin-top: -63%;
+}

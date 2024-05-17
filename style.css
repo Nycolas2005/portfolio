@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, rgb(60, 17, 73), #212150) 
+    background-image: linear-gradient(to top, #1c0c3d, black) 
 }
 
 body, header, footer {
@@ -18,9 +18,22 @@ header {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
+.titulo2 {
+    color: #8c52ff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
 
-
+.missao {
+    background-image: linear-gradient(to bottom,black, #1d0e3d, black);
+    padding-top: 20px;
+    margin-top: 550px;
+    height: 100vh;
+    width: 100vw;
+}
 .topnav a {
+    display: inline;
     margin-left: 13.4%;
     font-weight: bold;
     text-decoration: line;
@@ -46,12 +59,7 @@ header {
     text-align: center;
 }
 
-#titulo2 {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    background-image: linear-gradient(to top, rgb(60, 17, 73), #212150)
-}
+
 #titulo {
     margin-left: 100px;
     font-size: 30px;
@@ -79,7 +87,7 @@ header {
     text-align: center;
     color: #5e17eb;
     background-color: #000000;
-    margin-top: 500px;
+    margin-top: 0px;
 }
 
 .coluna-esquerda {
@@ -94,11 +102,8 @@ header {
     border-radius: 15px;
 }
 
-.imagem:hover {
-    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
-}
+
 .imagem1 {
-    transition: transform 0.3s ease;
     background-image: url(v);
     margin-left: 1250px;
     margin-top: 200px;
@@ -168,6 +173,7 @@ img {
 }
 
 footer {
+    height: 25vh;
     justify-content: space-between;
     background-color: rgb(31, 29, 29);
     padding: 35px;
@@ -204,5 +210,45 @@ footer {
     font-size: 20px;
     font: bold;
     margin-top: -165px;
-
 }
+.container5{  
+    display: flex;
+    color: white;
+}
+.missaotitle {
+    text-align: center;
+    font-size: 30px;
+}
+.coluna-esquerda5 {
+    animation: 1s linear;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 30px;
+    margin-top: 130px;
+    width: 650px;
+    margin-left: 1100px;
+    text-align: center;
+}
+
+.coluna-direita5 {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    line-height: 35px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-left:100px;
+    margin-top: -560px;
+    color: white;
+    width: 650px;
+}
+
+.msg {
+    color: white;
+    padding-top: 20px;
+    margin-left: 600px;
+}
+
