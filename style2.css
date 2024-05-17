@@ -1,0 +1,325 @@
+
+body {
+    background-image: linear-gradient(to right, black, #3533cd)
+}
+
+.p1 {
+    margin-top: 130px;
+    color: white;
+    font-size: 60px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 100px;
+    text-align: center;
+}
+
+.p2 {
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    line-height: 10px;
+}
+
+.coluna-esquerda {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin-left: 60px;
+    color: white;
+    line-height: 3px;
+    font-size: large;
+}
+
+.coluna-direita {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin-left: 970px;
+    color: white;
+    line-height: 10px;
+    font-size: large;
+}
+
+.coluna-direita2 {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin-left: 1008px;
+    color: white;
+    line-height: 3px;
+    font-size: large;
+}
+
+button {
+    margin-top: 130px;
+    font-family: sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    background-color: #bbed2f;
+    width:340px;
+    border-radius: 25px;
+    height: 70px;  
+    padding: 15px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+button img{
+    position: absolute;
+    left: 360px;
+    margin-top: 15px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+button:hover {
+    background-color: white;
+}
+
+#interesses {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 39.8px;
+}
+
+div.gallery {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    line-height: 0px;
+    color: white;
+    float: left;
+    margin-left: 160px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100px;
+    font-size: smaller;
+    padding: 30px;
+    border: none;
+    width: 100px;
+    font-size: 15px;
+}
+  
+  
+div.gallery img {
+    width: 200%;
+    height: auto;
+}
+  
+div.desc {
+    margin-left: 80px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.desc1 {
+    text-align: center;
+    line-height: 0px;
+    margin-left: 80px;
+}
+
+.desc2 {
+    line-height: 0px;
+    margin-left: 85px;
+}
+
+.desc3 {
+    line-height: 0px;
+    margin-left: 65px;   
+}
+.texto-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.outra-secao {
+    text-align: center ;
+    font-family: monospace;
+    font-size: 39.8px;
+    color: white;
+    margin-top: 650px;
+}
+
+.progress-bar1 {
+    margin-left: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar1 span {
+    margin-right: 50px; 
+    font-weight: bold;
+  }
+  
+.progress1 {
+    border-radius: 15px;
+    width: 80%;
+    height: 80px;
+    background-color: #6ce5e8;
+}
+  
+  .progress-filled {
+    height: 50%;
+}
+
+.progress-bar2 {
+    margin-left: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+.progress-bar2 span {
+    margin-right: 116px;
+    font-weight: bold;
+}
+
+.progress2 {
+    border-radius: 10px;
+    width: 20%;
+    height: 80px;
+    background-color: #6ce5e8;
+}
+
+.progress-bar3 {
+    margin-left: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+  
+  .progress-bar3 span {
+    margin-right: 103px; 
+    font-weight: bold;
+}
+  
+.progress3 {
+    border-radius: 10px;
+    width: 40%;
+    height: 80px;
+    background-color: #6ce5e8;
+}
+
+.progress-bar4 {
+    margin-left: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+  
+  .progress-bar4 span {
+    margin-right: 103px; 
+    font-weight: bold;
+}
+
+.progress4 {
+    border-radius: 10px;
+    width: 25%;
+    height: 80px;
+    background-color: #6ce5e8;
+}
+.slamf {
+    font-size: 15px;
+    line-height: 0px;
+    text-align: left;
+    margin-left: 303px;
+    word-spacing: 248px;
+}
+
+.outra-secao2 {
+    margin-top: 400px;
+    color: white;
+    font-size: 39.8px;
+    text-align: center;
+}
+
+.coluna-esquerda3 {
+    margin-top: 100px;
+    text-align: left;
+    font-size:27px ;
+    font-family:'Times New Roman', Times, serif ;
+    margin-left: 50px;
+    color: white;
+    width: 530px
+}
+
+.coluna-direita3 {
+    margin-top: 100px;
+    font-size:30px ;
+    font-family:'Times New Roman', Times, serif ;
+    margin-left: 600px;
+    color: white;
+    width: 530px;
+    text-align: left;
+}
+.container3 {
+    display: flex;
+}
+
+.coluna-esquerda4 {
+    text-align: center;
+    font-size: 22px;
+    margin-left: 85px;
+    margin-bottom: 15px;
+}
+.coluna-direita4 {
+    font-size: 22px;
+    margin-left: 770px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.container4 {
+    display: flex;
+}
+
+
+.formacao {
+    margin-left: 500px;
+    margin-top: 200px;
+    font-weight: 39.8px;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.educacao-item {
+    font-size: 20px;
+    margin-top: 100px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+}
